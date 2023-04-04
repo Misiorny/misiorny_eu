@@ -2,6 +2,18 @@
 module.exports = {
   content: ['./src/pages/**/*.{ts,tsx}', './src/components/**/*.{ts,tsx}'],
   theme: {
+    extend: {
+      fontFamily: {
+        main: ['var(--font-sen)'],
+        headers: ['var(--font-vt)'],
+      },
+      backgroundImage: {
+        'header-bgi': "url('')",
+        'journey-bgi': "url('')",
+        'forex-bgi': "url('')",
+        'web-bgi': "url('')",
+      },
+    },
     colors: {
       main: {
         l5: '#FFF4E6',

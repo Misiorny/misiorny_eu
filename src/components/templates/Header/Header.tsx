@@ -5,12 +5,15 @@ import { ParagraphTitle } from '../../base/Titles/ParagraphTitle';
 
 export const Header = () => {
   return (
-    <header className="header">
+    <header className="header font-main ">
       <Logo />
       <section className="flex-wrap">
-        <SubTitle sTitleText="misiorny.eu" className="subtitle" />
+        <SubTitle sTitleText="misiorny.eu" className="subtitle font-headers " />
         <MainTitle mTitleText="Podróże, strony internetowe, forex." className="maintitle" />
-        <ParagraphTitle pTitleText="Wykorzystaj moje hobby !" className="paragraphtitle" />
+        <ParagraphTitle
+          pTitleText="Wykorzystaj moje hobby !"
+          className="paragraphtitle font-bold text-complementary-d2"
+        />
       </section>
     </header>
   );
