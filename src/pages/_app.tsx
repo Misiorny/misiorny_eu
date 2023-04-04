@@ -1,7 +1,7 @@
 import '../styles/globals.css';
 import type { AppProps } from 'next/app';
 import Head from 'next/head';
-import { Sen, VT323 } from '@next/font/google';
+import { Sen, VT323 } from 'next/font/google';
 
 const sen = Sen({
   weight: ['400', '700', '800'],
