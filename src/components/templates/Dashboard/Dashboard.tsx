@@ -1,13 +1,7 @@
-import { Travels } from '../../Travels';
-import { Web } from '../../Web';
-import { Forex } from '../../Forex';
+interface DashboardProps {
+  contain: JSX.Element;
+}
 
-export const Dashboard = () => {
-  return (
-    <section>
-      <Travels />
-      <Forex />
-      <Web />
-    </section>
-  );
+export const Dashboard = ({ contain }: DashboardProps) => {
+  return <section>{contain}</section>;
 };
