@@ -2,9 +2,13 @@ import Image from 'next/legacy/image';
 import logo from '../../../assets/png/logo/logo240.png';
 import Link from 'next/link';
 
-export const Logo = () => {
+interface LogoProps {
+  className: string;
+}
+
+export const Logo = ({ className }: LogoProps) => {
   return (
-    <picture className="min-h-24 p-4">
+    <picture className={className}>
       <Link href="/">
         <Image src={logo} alt="Logo misiorny.eu" width={80} height={120} />
       </Link>
