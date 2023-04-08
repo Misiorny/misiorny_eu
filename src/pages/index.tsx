@@ -1,5 +1,5 @@
-import { Dashboard } from '../components/templates/Dashboard/Dashboard';
-import { Travels } from '../components/Travels';
+import { Dashboard } from '../components/templates/Dashboards/Dashboard';
+import { Travels } from '../components/templates/Dashboards/Travels';
 
 const Home = () => {
   return (

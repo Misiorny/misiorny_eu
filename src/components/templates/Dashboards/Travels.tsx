@@ -1,5 +1,5 @@
-import { Paragraph } from './base/Paragraph/Paragraph';
-import { ParagraphTitle } from './base/Titles/ParagraphTitle';
+import { Paragraph } from '../../base/Paragraph/Paragraph';
+import { ParagraphTitle } from '../../base/Titles';
 
 export const Travels = () => {
   return (

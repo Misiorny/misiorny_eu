@@ -1,5 +1,5 @@
-import { Dashboard } from '../components/templates/Dashboard/Dashboard';
-import { Forex } from '../components/Forex';
+import { Dashboard } from '../components/templates/Dashboards/Dashboard';
+import { Forex } from '../components/templates/Dashboards/Forex';
 
 const Offers = () => {
   return (
