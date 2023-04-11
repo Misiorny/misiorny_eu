@@ -1,5 +1,5 @@
 interface DashboardProps {
-  contain: JSX.Element;
+  contain: JSX.Element[];
   className?: string;
 }
 

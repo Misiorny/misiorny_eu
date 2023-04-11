@@ -1,0 +1,10 @@
+export { default as diver } from './diver.jpg';
+export { default as freddie } from './freddie_house.jpg';
+export { default as kili } from './kili_np.jpg';
+export { default as masai } from './masai.jpg';
+export { default as bali } from './na_bali.jpg';
+export { default as pablo } from './pablo.jpg';
+export { default as rhino } from './rhino.jpg';
+export { default as singapore } from './singapore.jpg';
+export { default as spanish } from './spanish_diver.jpg';
+export { default as zanzibar } from './zanzibar.jpg';
