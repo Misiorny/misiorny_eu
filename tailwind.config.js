@@ -17,6 +17,26 @@ module.exports = {
         main: ['var(--font-sen)'],
         headers: ['var(--font-vt)'],
       },
+      keyframes: {
+        clickLink: {
+          '0%,100%': {
+            opacity: 1,
+          },
+          '50%': { opacity: 0 },
+        },
+        clickButtonLink: {
+          '0%,100%': {
+            opacity: 1,
+          },
+          '50%': { opacity: 0.5 },
+        },
+      },
+
+      animation: {
+        'ping-slow': 'ping 5s linear infinite',
+        clickLink: 'clickLink 5s linear infinite',
+        clickButtonLink: 'clickButtonLink 5s linear infinite',
+      },
       backgroundImage: {
         'header-bgi': "url('')",
         'journey-bgi': "url('')",

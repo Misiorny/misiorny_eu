@@ -5,7 +5,7 @@ import { singapore } from '../../../assets/png/myPictures';
 
 export const Travels = () => {
   return (
-    <div className="min-h-screen bg-neutral-d5">
+    <div className="m-1 min-h-screen bg-neutral-d5">
       <ParagraphTitle
         pTitleText="Podróże - spełnione marzenie"
         className="pt-1 font-headers text-3xl text-main"

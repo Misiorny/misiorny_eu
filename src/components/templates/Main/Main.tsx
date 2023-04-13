@@ -2,7 +2,7 @@ import Head from 'next/head';
 import { Sen, VT323 } from 'next/font/google';
 import { ReactNode } from 'react';
 import { Header } from '../Header/Header';
-import { Footer } from '../../base/Footer/Footer';
+import { Footer } from '../Footer/Footer';
 
 const sen = Sen({
   weight: ['400', '700', '800'],
@@ -28,7 +28,9 @@ export const Main = ({ children }: MainProps) => {
           pomysłów...
         </title>
       </Head>
-      <main className={`${sen.variable} font-main ${vt.variable}  text-center font-headers  `}>
+      <main
+        className={`${sen.variable} font-main ${vt.variable}  bg-main-l5 text-center font-headers `}
+      >
         <Header />
         {children}
         <Footer />

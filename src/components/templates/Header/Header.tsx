@@ -1,5 +1,5 @@
 import { Logo } from '../../base/Logo/Logo';
-import { SubTitle, MainTitle, ParagraphTitle } from '../../base/Titles';
+import { MainTitle, ParagraphTitle, SubTitle } from '../../base/Titles';
 import Link from 'next/link';
 
 export const Header = () => {
@@ -15,7 +15,7 @@ export const Header = () => {
           mTitleText="Podróże, strony internetowe, forex."
           className="pb-3 text-xl font-extrabold text-main-d4"
         />
-        <Link href="/offers">
+        <Link href="/hobby">
           <ParagraphTitle
             pTitleText="Wykorzystaj moje hobby !"
             className="w-full rounded-xl bg-neutral-d3 py-1 text-sm font-bold text-complementary-l1 hover:text-complementary-l2"

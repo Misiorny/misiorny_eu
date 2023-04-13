@@ -20,9 +20,12 @@ export const Picture = ({
   figureClassName,
 }: PictureProps) => {
   return (
-    <figure className="  bg-main-l2 p-2" {...figureClassName}>
-      <Image src={src} alt={alt} width={w} height={h} />
-      <figcaption className="pt-2 text-main-d4 " {...figcaptionClassName}>
+    <figure className=" rounded-sm bg-main-l2 p-1" {...figureClassName}>
+      <Image src={src} alt={alt} width={w} height={h} className="overflow-hidden rounded-sm" />
+      <figcaption
+        className="py-2 font-headers text-3xl  tracking-widest text-main-d4"
+        {...figcaptionClassName}
+      >
         {label}
       </figcaption>
     </figure>

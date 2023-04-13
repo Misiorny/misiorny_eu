@@ -15,8 +15,8 @@ export const Logo = () => {
           />
         </svg>
       </Link>
-      <span className=" ">
-        <div className="w-full border-t-2 pb-2"></div>
+      <span className="animate-clickLink">
+        <div className="w-full border-t-2 border-complementary-d1 pb-2"></div>
       </span>
     </picture>
   );
