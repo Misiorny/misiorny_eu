@@ -15,7 +15,7 @@ export const About = () => {
       />
       <Paragraph
         className="py-4 px-2 text-left font-main text-xl leading-relaxed tracking-wide text-main"
-        text="Strona ta jest w założeniu stroną firmową, dzięki której mam nadzieję na znalezienie potencjalnych klientów. Jednak moje podejście do szeroko pojetego biznesu jest trochę inne - klient ma być zadowolony a praca dla mnie powinna być przyjemnością. Dlatego, jeżeli spodziewasz się szybko, tanio i dobrze to proponuję poszukać takiego hasła w dobrze znanej wyszukiwarce internetowej. "
+        text="Strona ta jest w założeniu stroną firmową, dzięki której znajdę potencjalnych klientów. Jednak moje podejście do szeroko pojetego biznesu jest trochę inne - klient ma być zadowolony a praca dla mnie powinna być przyjemnością. Dlatego, jeżeli spodziewasz się szybko, tanio i dobrze to proponuję poszukać takiego hasła w dobrze znanej wyszukiwarce internetowej. "
       />
       <Paragraph
         className="py-4 px-2 text-left font-main text-xl leading-relaxed tracking-wide text-main"
