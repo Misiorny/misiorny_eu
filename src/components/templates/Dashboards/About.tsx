@@ -1,21 +1,21 @@
 import { ParagraphTitle } from '../../base/Titles';
 import { Paragraph } from '../../base/Paragraph/Paragraph';
 import { Picture } from '../../base/Pictures/Picture';
-import { kili } from '../../../assets/png/myPictures';
+import { masai } from '../../../assets/png/myPictures';
 import { ButtonLink } from '../../base/Buttons/ButtonLink';
 
 export const About = () => {
   return (
-    <div className=" mt-2 rounded-sm bg-neutral-d5 ">
-      <ParagraphTitle pTitleText="O mnie" className="py-2 font-headers text-5xl text-main" />
-      <Picture src={kili} alt="" label="Misiorny czyli ja" />
+    <div className="rounded-sm bg-neutral-d5">
+      <ParagraphTitle pTitleText="O mnie" className=" py-2 font-headers text-3xl text-main" />
+      <Picture src={masai} alt="" label="Misiorny z Masajami " />
       <Paragraph
         className="py-4 px-2 text-left font-main text-xl leading-relaxed tracking-wide text-main"
-        text="Pasjonat podróży, nowych technologii i gracz komputerowy. Nie ma rzeczy nie do zrealizowania - czasami trzeba tylko poczekać. Dzięki takiemu podejściu do życia, zrealizowałem marzenie o podróżowaniu. Teraz czas na kolejne - szeroko pojęte programowanie, dzięki któremu mam nadzieję na dofinansowanie podróży."
+        text="Pasjonat podróży, nowych technologii i gracz komputerowy. Nie ma rzeczy nie do zrealizowania - czasami trzeba tylko poczekać. Dzięki takiemu podejściu do życia, zrealizowałem marzenie o podróżowaniu. Teraz czas na kolejne - szeroko pojęte programowanie, które pozwoli mi zwiedzić świat."
       />
       <Paragraph
         className="py-4 px-2 text-left font-main text-xl leading-relaxed tracking-wide text-main"
-        text="Strona ta jest w założeniu stroną firmową, dzięki której znajdę potencjalnych klientów. Jednak moje podejście do szeroko pojetego biznesu jest trochę inne - klient ma być zadowolony a praca dla mnie powinna być przyjemnością. Dlatego, jeżeli spodziewasz się szybko, tanio i dobrze to proponuję poszukać takiego hasła w dobrze znanej wyszukiwarce internetowej. "
+        text="Strona ta jest w założeniu stroną firmową. Moje podejście do biznesu jest proste - klient ma być zadowolony, a praca dla mnie powinna być przyjemnością. Dlatego, jeżeli spodziewasz się szybko, tanio i dobrze to proponuję poszukać takiego hasła w dobrze znanej wyszukiwarce internetowej. "
       />
       <Paragraph
         className="py-4 px-2 text-left font-main text-xl leading-relaxed tracking-wide text-main"

@@ -29,7 +29,7 @@ export const Main = ({ children }: MainProps) => {
         </title>
       </Head>
       <main
-        className={`${sen.variable} font-main ${vt.variable}   bg-main-l5 text-center font-headers`}
+        className={`${sen.variable} font-main ${vt.variable} bg-neutral-l4 text-center font-headers`}
       >
         <Header />
         {children}

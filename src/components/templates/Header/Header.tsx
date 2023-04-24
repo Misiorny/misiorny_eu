@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 export const Header = () => {
   return (
-    <header className="flex items-center justify-evenly bg-main-l5 font-main">
+    <header className="mx-auto flex w-full items-center justify-evenly bg-main-l5 font-main xl:w-11/12 ">
       <Logo />
       <section className="p-2">
         <SubTitle

@@ -8,9 +8,9 @@ module.exports = {
       md: '768px',
       lg: '1024px',
       xl: '1280px',
-      '2xl': '1536px',
-      '3xl': '1920px',
-      '4xl': '2560px',
+      dl: '1536px', //double xl
+      hu: '1920px', //huge
+      gi: '2560px', //gigantic
     },
     extend: {
       fontFamily: {
@@ -22,7 +22,7 @@ module.exports = {
           '0%,100%': {
             opacity: 1,
           },
-          '50%': { opacity: 0 },
+          '50%': { opacity: 0.2 },
         },
         clickButtonLink: {
           '0%,100%': {

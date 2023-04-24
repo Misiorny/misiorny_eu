@@ -23,7 +23,7 @@ export const Picture = ({
     <figure className=" rounded-sm bg-main-l2 p-1" {...figureClassName}>
       <Image src={src} alt={alt} width={w} height={h} className="overflow-hidden rounded-sm" />
       <figcaption
-        className="py-2 font-headers text-3xl  tracking-widest text-main-d4"
+        className="py-2 font-headers text-3xl tracking-widest text-main-d4"
         {...figcaptionClassName}
       >
         {label}

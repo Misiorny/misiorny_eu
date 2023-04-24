@@ -6,10 +6,10 @@ import { ButtonLink } from '../../base/Buttons/ButtonLink';
 
 export const Web = () => {
   return (
-    <div className="my-1 min-h-screen bg-neutral-d5">
+    <div className="min-h-screen border-b-4 border-b-main-l4 bg-neutral-d5">
       <ParagraphTitle
         pTitleText="Programowanie - marzenie do realizacji "
-        className="py-2 font-headers text-5xl text-main"
+        className="py-2 font-headers text-3xl text-main"
       />
       <Picture src={rhino} alt="Zambia, nosorożec i ja" label="Zambia, nosorożec i ja" />
       <Paragraph
@@ -26,7 +26,7 @@ export const Web = () => {
       />
       <ButtonLink
         className="my-2 animate-clickButtonLink rounded-2xl bg-main-l5 py-1 px-4 font-bold text-neutral-d5"
-        to="/hobby"
+        to="/offers"
         label="Wykorzystaj moje hobby !"
       />
     </div>
