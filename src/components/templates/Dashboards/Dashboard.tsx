@@ -4,5 +4,5 @@ interface DashboardProps {
 }
 
 export const Dashboard = ({ contain, className }: DashboardProps) => {
-  return <section className={className}>{contain}</section>;
+  return <section className={className}>{contain}</section>
 };

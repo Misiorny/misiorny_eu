@@ -36,11 +36,11 @@ export const Travels = () => {
       </div>
       <Paragraph
         className="py-4 px-2 text-left font-main text-xl leading-relaxed tracking-wide text-main"
-        text="Gdy wyjeżdżam to zawsze robię to bez szczegółowego planu. Dlatego każda wyprawa to przygoda i jednocześnie nowe doświadczenia. Nie jestem fanem odwiedzania miejsc, w których trzeba się pokazać, lecz włóczenia się tam gdzie mnie oczy poniosą a nogi zaprowadzą. "
+        text="Gdy wyjeżdżam, zawsze robię to bez szczegółowego planu. Dlatego każda wyprawa to przygoda i jednocześnie nowe doświadczenia. Nie jestem fanem odwiedzania miejsc, w których trzeba się pokazać, lecz włóczenia się tam gdzie mnie oczy poniosą a nogi zaprowadzą. "
       />
       <Paragraph
         className="py-4 px-2 text-left font-main text-xl leading-relaxed tracking-wide text-main"
-        text="Jeżeli planujesz wycieczkę do Afryki, a konkretnie do Tanzanii - to jestem w stanie Ci pomóc ją zorganizować. Dzięki zaprzyjaźnionej firmie w Arushy pomogę Ci zorganizować safari w przyzwoitej cenie, z atrakcjami jakich nie znajdziesz w biurach podróży. "
+        text="Jeżeli planujesz wycieczkę do Afryki, a konkretnie do Tanzanii - to jestem w stanie Ci pomóc. Dzięki zaprzyjaźnionej firmie w Arushy pomogę Ci zorganizować safari w przyzwoitej cenie, z atrakcjami jakich nie znajdziesz w biurach podróży. "
       />
       <ButtonLink
         className="my-2 animate-clickButtonLink rounded-2xl bg-main-l5 py-1 px-4 font-bold text-neutral-d5"
